@@ -415,6 +415,9 @@ class Plotter:
                 lastX = x
                 lastY = y
         
+        # just some slight cleanup
+        self.penUp()
+        
 class PlotterREPL:
     # defines a REPL for the plotter so it can be used directly.
     def __init__(self):
