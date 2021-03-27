@@ -54,7 +54,7 @@ class SearchMesh():
     def findClosestTargetTo(self, x, y, unsetTarget=True):
         self.resetSearch()
     
-        searchList = [self.contents[x][y]]
+        searchList = [self.contents[int(x)][int(y)]]
         found    = False
         retX     = 0
         retY     = 0
@@ -407,6 +407,7 @@ class Plotter:
                     # not self.down
                     # we'll assume the wait has already happened here
                     self.plotAbsolute(x + self.offsetX, y + self.offsetY)
+                    self.wait(1)
                     self.penDown()
                     self.wait(8)
                             
