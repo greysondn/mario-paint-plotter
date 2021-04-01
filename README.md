@@ -22,3 +22,6 @@ The strange looking lines the plotter spits out and waits for you to see are cop
 
 # Why
 I just really wanted to color a dinosaur, man.
+
+The run this was built for has now been submitted; please see:  
+http://tasvideos.org/7073S.html
